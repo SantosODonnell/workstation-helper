@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "dev.santos.workstationhelper.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ContainerScreenAccessor",
+		"AccessibilityOptionsMixin",
+		"GuiGraphicsAccessor",
+		"RecipeBookScreenAccessor",
+		"RecipeBookComponentAccessor",
+		"RecipeBookHideMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
