@@ -1,71 +1,71 @@
 # Workstation Helper
 
-Клиентский мод для Minecraft (Fabric): добавляет к рабочим столам панели-подсказки в стиле игры. Работает только у тебя в игре — на сервер ставить не нужно.
+A client-side Minecraft mod (Fabric) that adds vanilla-style helper panels to workstations. It runs only in your own game, so there is no need to install it on the server.
 
-*Client-side Fabric mod that adds vanilla-style helper panels to Minecraft workstations. English and Russian are supported.*
+The mod itself supports English and Russian.
 
-## Что умеет
+## Features
 
-- **Наковальня** — планировщик зачарований: выбираешь зачарования, мод считает самый дешёвый порядок соединения книг и ведёт по шагам.
-- **Кузнечный стол** — кастомизатор брони с предпросмотром (материал, цвет, отделка), подсказка, где найти шаблоны отделки.
-- **Стол картографа** — небольшие подсказки.
-- **Стол зачарования** — 3D-схема книжных полок вокруг стола: сколько работает и что мешает остальным.
-- **Ткацкий станок** — готовые флаги и свои сохранённые узоры, пошаговое создание, подсказки по узорам и копированию флага.
-- **Варочная стойка** — список зелий с поиском, шаги приготовления и небольшие подсказки.
-- **Камнерез** — книга рецептов как у верстака.
-- **Печь, коптильня, плавильная печь** — вкладка «Топливо»: сколько предметов переплавит каждое топливо.
-- **Точило** — подсказка, что оно умеет.
-- **Жители и странствующий торговец** — панель «Все возможные торги» по всем уровням профессии.
+- **Anvil** – enchantment planner: pick the enchantments you want, and the mod calculates the cheapest order to combine your books and guides you step by step.
+- **Smithing Table** – armor customizer with a live preview (material, color, trim) and a hint showing where to find smithing templates.
+- **Cartography Table** – small tips.
+- **Enchanting Table** – 3D view of the bookshelves around the table: how many of them work and what is blocking the rest.
+- **Loom** – ready-made banners and your own saved designs, built step by step, with pattern hints and banner copying.
+- **Brewing Stand** – searchable potion list, brewing steps and small tips.
+- **Stonecutter** – a recipe book like the crafting table's.
+- **Furnace, Smoker, Blast Furnace** – a "Fuel" tab showing how many items each fuel smelts.
+- **Grindstone** – a tip explaining what it can do.
+- **Villagers and Wandering Trader** – an "All possible trades" panel listing trades for every profession level.
 
-Каждую панель можно скрыть кнопкой «−/+» в углу окна. Весь мод выключается в настройках: «Специальные возможности» → «Помощник».
+Every panel can be hidden with the "−/+" button in the corner of its screen. The whole mod can be turned off in Options → Accessibility → "Helper".
 
-## Скриншоты
+## Screenshots
 
-**Наковальня: планировщик зачарований.** Выбери нужные зачарования (несовместимые станут серыми), нажми «Рассчитать» — мод найдёт самый дешёвый порядок соединения книг, проведёт по шагам и покажет, сколько всего уровней уйдёт.
+**Anvil: enchantment planner.** Choose the enchantments you want (incompatible ones are greyed out), press "Calculate", and the mod finds the cheapest order to merge your books, guides you step by step and shows the total level cost.
 
-![Наковальня: планировщик зачарований](docs/screenshots/1-anvil.png)
+![Anvil: enchantment planner](docs/screenshots/1-anvil.png)
 
-**Ткацкий станок: готовые флаги по шагам.** Выбери флаг слева (в том числе свои сохранённые узоры) — справа появятся все шаги по порядку: какой краситель и какой узор. Мод сам кладёт предметы в станок.
+**Loom: ready-made banners, step by step.** Pick a banner on the left (including your own saved designs), and the panel on the right shows every step in order: which dye and which pattern. The mod places the items into the loom for you.
 
-![Ткацкий станок: готовые флаги по шагам](docs/screenshots/2-loom.png)
+![Loom: ready-made banners, step by step](docs/screenshots/2-loom.png)
 
-**Кузнечный стол: примерка брони.** Выбери часть брони, цвет красителя, узор отделки и её цвет — результат сразу виден на модели. Кнопка «?» показывает, где найти каждый шаблон отделки.
+**Smithing Table: armor customizer.** Choose the armor piece, dye color, trim pattern and trim color, and see the result on the preview model right away. The "?" button shows where to find each smithing template.
 
-![Кузнечный стол: примерка брони](docs/screenshots/3-smithing.png)
+![Smithing Table: armor customizer](docs/screenshots/3-smithing.png)
 
-**Варочная стойка: любое зелье по шагам.** Выбери зелье в списке с поиском — увидишь все ингредиенты в правильном порядке. Внизу включаются добавки: дольше, сильнее, взрывное или туманное.
+**Brewing Stand: every potion, step by step.** Pick a potion from the searchable list to see all ingredients in the right order. Toggle modifiers at the bottom: longer, stronger, splash or lingering.
 
-![Варочная стойка: любое зелье по шагам](docs/screenshots/4-brewing.png)
+![Brewing Stand: every potion, step by step](docs/screenshots/4-brewing.png)
 
-**Стол картографа: быстрые подсказки.** Что делает каждый предмет: бумага уменьшает масштаб карты, пустая карта копирует её, стеклянная панель блокирует.
+**Cartography Table: quick tips.** What each item does: paper zooms out the map, an empty map copies it, and a glass pane locks it.
 
-![Стол картографа: быстрые подсказки](docs/screenshots/5-cartography.png)
+![Cartography Table: quick tips](docs/screenshots/5-cartography.png)
 
-**Жители: все возможные торги.** Все торги, которые житель может предложить, по уровням профессии — ещё до прокачки. Работает для всех профессий и странствующего торговца.
+**Villagers: all possible trades.** Every trade a villager can offer, grouped by profession level, before you even level them up. Works for all professions and the Wandering Trader.
 
-![Жители: все возможные торги](docs/screenshots/6-villager-trades.png)
+![Villagers: all possible trades](docs/screenshots/6-villager-trades.png)
 
-## Установка
+## Installation
 
-1. Установи [Fabric Loader](https://fabricmc.net/use/) и [Fabric API](https://modrinth.com/mod/fabric-api).
-2. Скачай jar под свою версию игры со страницы [Releases](../../releases).
-3. Положи jar в папку `mods`.
+1. Install [Fabric Loader](https://fabricmc.net/use/) and [Fabric API](https://modrinth.com/mod/fabric-api).
+2. Download the jar for your game version from the [Releases](../../releases) page.
+3. Put the jar into your `mods` folder.
 
-| Minecraft | Файл мода | Fabric Loader | Fabric API |
+| Minecraft | Mod file | Fabric Loader | Fabric API |
 |---|---|---|---|
 | 26.3 | `workstation-helper-1.7.0+mc26.3.jar` | 0.19.5+ | 0.163.0+26.3 |
 | 26.2 | `workstation-helper-1.7.0+mc26.2.jar` | 0.19.3+ | 0.158.0+26.2 |
 
-Нужна Java 25.
+Requires Java 25.
 
-## Сборка из исходников
+## Building from source
 
 ```
 gradlew build
 ```
 
-Готовый мод появится в `build/libs`. Исходники в репозитории — для Minecraft 26.3.
+The built mod will appear in `build/libs`. The source code in this repository is for Minecraft 26.3.
 
-## Лицензия
+## License
 
-MIT — см. [LICENSE](LICENSE).
+MIT – see [LICENSE](LICENSE).
